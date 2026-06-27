@@ -146,3 +146,24 @@ Public contents include:
 - derived summary CSV/JSON and the extracted public POI dataset;
 - source notes, methodology, and reproducibility scripts;
 - no private session files, raw browser captures, WhatsApp data, or unrelated private project materials.
+
+## Appendix: plain-language terms
+
+| Term in this report | Plain English | Sinhala term used in the Sinhala version |
+|---|---|---|
+| Urbanization | A place becoming more town-like: more buildings, shops, services, traffic, and land subdivision | නාගරිකරණය / නගර ගතිය වැඩි වීම |
+| POI / point of interest | A mapped place such as a shop, bank, clinic, school, fuel station, restaurant, or service business | සිතියමේ ලකුණු වූ ස්ථානය / සේවා ස්ථානය |
+| Catchment | The practical area around a town that uses its shops, services, roads, and jobs | අවට සේවා පරාසය |
+| Core | The centre of the town; in this report, the 1 km area around Godagama junction/station | මධ්‍ය ප්‍රදේශය |
+| Pressure zone | An area where new land sales, shops, roads, and services show development pressure | වර්ධන පීඩන කලාපය |
+| First visible date | The earliest date visible in the extracted online activity/photo signal. It is not a confirmed opening date | මුලින්ම දත්තවල පෙනුණු දිනය |
+| Comparator area | A nearby place used for comparison, such as Kahathuduwa or Kottawa/Makumbura | සැසඳුම් ප්‍රදේශය |
+| OSM / OpenStreetMap | A public map database edited by contributors; useful for road/building history, but not a permit record | OpenStreetMap / විවෘත සිතියම් දත්ත |
+| ohsome | A service that summarizes OpenStreetMap history over time | OSM ඉතිහාස දත්ත සේවාව |
+| UDA | Urban Development Authority; Sri Lanka's official urban planning authority | නාගරික සංවර්ධන අධිකාරිය |
+| RDA | Road Development Authority; Sri Lanka's main road authority | මාර්ග සංවර්ධන අධිකාරිය |
+| GN / DS | Grama Niladhari and Divisional Secretariat administrative levels | ග්‍රාම නිලධාරී / ප්‍රාදේශීය ලේකම් මට්ටම් |
+| GHSL / WorldPop / VIIRS | Global datasets for built-up land, population distribution, and night-time lights | ගෝලීය ජනාවාස / ජනගහන / රාත්‍රී ආලෝක දත්ත |
+| Chain anchor | A known chain shop, bank, supermarket, or finance branch that signals stronger town services | ප්‍රධාන ජාල වෙළඳ/මුදල් සේවා ස්ථානය |
+| Productive-service POIs | Everyday local services that support households and small businesses: hardware, repair, vehicle service, clinics, courier, food, etc. | දෛනික අවශ්‍යතා සපයන සේවා ස්ථාන |
+| Land-price-per-perch | Land price quoted for one perch, the common Sri Lankan land-sales unit | පර්චසයක ඉඩම් මිල |
