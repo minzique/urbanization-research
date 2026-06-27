@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>Godagama 10200 Urbanization Evidence Report</title>
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <link rel="stylesheet" href="urbanization-print.css" />
+</head>
+<body>
+<header id="title-block-header">
+<h1 class="title">Godagama 10200 Urbanization Evidence Report</h1>
+</header>
+<h1 id="godagama-10200-urbanization-evidence-report">Godagama 10200
+urbanization evidence report</h1>
+<p>Date: 2026-06-27<br />
+Prepared from the Google-derived POI extract, OSM/ohsome history,
+UDA/RDA planning evidence, and developer market signals.</p>
+<h2 id="what-changed-in-this-version">What changed in this version</h2>
+<p>The earlier coordinate scatter chart was not useful because one
+extracted POI had a bad longitude outside Sri Lanka, which stretched the
+axis. This version filters geospatial outliers for charts, replaces the
+raw scatter with a local map view, and adds comparison visuals designed
+for print.</p>
+<h2 id="data-quality-note">Data quality note</h2>
+<ul>
+<li>Raw Google-derived POI rows: <strong>3,495</strong>.</li>
+<li>Rows used for numeric analysis after removing non-Sri-Lanka
+coordinate outliers: <strong>3,494</strong>.</li>
+<li>Removed geospatial outliers: <strong>1</strong>.</li>
+<li>POIs with earliest visible activity/photo dates:
+<strong>3,384</strong>.</li>
+<li>The earliest-visible date is an activity proxy, not a confirmed
+opening date.</li>
+</ul>
+<h2 id="executive-findings">Executive findings</h2>
+<ol type="1">
+<li><p><strong>Godagama has a dense core and a thinner surrounding
+catchment.</strong> The 3 km catchment has <strong>440 POIs</strong>
+(<strong>15.6/km²</strong>), but the 1 km core alone has <strong>274
+POIs</strong>, about <strong>87.2/km²</strong>.</p></li>
+<li><p><strong>The current Godagama POI layer is recent.</strong>
+<strong>82.4%</strong> of dated Godagama POIs were first visible from
+<strong>2021 onward</strong>, the highest recent-share among the six
+comparator areas in this extract.</p></li>
+<li><p><strong>The property/developer signal is already
+material.</strong> Godagama has <strong>63 property/developer
+POIs</strong> in the 3 km catchment, <strong>14.3%</strong> of its
+extracted POI base. That share is close to Homagama and
+Kottawa/Makumbura.</p></li>
+<li><p><strong>The strongest comparator pressure is Kahathuduwa,
+followed by Meegoda and Kottawa/Makumbura.</strong> The pressure score
+ranks: <strong>Kahathuduwa (72.2), Meegoda (57.6), Kottawa/Makumbura
+(53.6), Godagama (34.5), Padukka (31.2), Homagama
+(21.0)</strong>.</p></li>
+<li><p><strong>OpenStreetMap history shows physical growth ahead of full
+commercial maturity.</strong> In the Godagama-area OSM bounding box,
+mapped buildings rose <strong>+338%</strong> from 2018 to 2026, while
+mapped road length rose <strong>+33%</strong>. That is consistent with
+subdivision/build-out happening before the commercial layer fully fills
+in.</p></li>
+</ol>
+<h2 id="study-geography">Study geography</h2>
+<figure>
+<img src="assets/public_report/01_spatial_clean_map.png"
+alt="Clean local POI geography" />
+<figcaption aria-hidden="true">Clean local POI geography</figcaption>
+</figure>
+<h2 id="comparator-fingerprint">Comparator fingerprint</h2>
+<p>This is the main diagnostic chart. Darker cells show which areas are
+high on each measured indicator; values printed inside the cells are the
+actual values.</p>
+<figure>
+<img src="assets/public_report/02_urbanization_fingerprint.png"
+alt="Urbanization fingerprint" />
+<figcaption aria-hidden="true">Urbanization fingerprint</figcaption>
+</figure>
+<h2 id="pressure-model">Pressure model</h2>
+<p>The model is not a land-price forecast. It is a triage index for
+where urbanization pressure is most visible in the current data.</p>
+<p>Inputs:</p>
+<ul>
+<li>35% current POI density;</li>
+<li>25% share of POIs first visible from 2021 onward;</li>
+<li>25% property/developer POI density;</li>
+<li>15% chain/finance anchor density.</li>
+</ul>
+<figure>
+<img src="assets/public_report/03_pressure_scatter.png"
+alt="Pressure scatter" />
+<figcaption aria-hidden="true">Pressure scatter</figcaption>
+</figure>
+<table>
+<colgroup>
+<col style="width: 12%" />
+<col style="width: 12%" />
+<col style="width: 12%" />
+<col style="width: 12%" />
+<col style="width: 12%" />
+<col style="width: 12%" />
+<col style="width: 12%" />
+<col style="width: 12%" />
+</colgroup>
+<thead>
+<tr>
+<th>Area</th>
+<th>POIs</th>
+<th>POIs/km²</th>
+<th>Visible 2021+</th>
+<th>Property share</th>
+<th>Property POIs</th>
+<th>Productive-service POIs</th>
+<th>Score</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Godagama</td>
+<td>440</td>
+<td>15.6</td>
+<td>82.4%</td>
+<td>14.3%</td>
+<td>63</td>
+<td>111</td>
+<td>34.5</td>
+</tr>
+<tr>
+<td>Homagama</td>
+<td>470</td>
+<td>16.6</td>
+<td>75.1%</td>
+<td>14.0%</td>
+<td>66</td>
+<td>137</td>
+<td>21.0</td>
+</tr>
+<tr>
+<td>Meegoda</td>
+<td>542</td>
+<td>19.2</td>
+<td>79.7%</td>
+<td>11.3%</td>
+<td>61</td>
+<td>117</td>
+<td>57.6</td>
+</tr>
+<tr>
+<td>Kottawa/Makumbura</td>
+<td>535</td>
+<td>18.9</td>
+<td>77.8%</td>
+<td>14.2%</td>
+<td>76</td>
+<td>135</td>
+<td>53.6</td>
+</tr>
+<tr>
+<td>Kahathuduwa</td>
+<td>622</td>
+<td>22.0</td>
+<td>78.7%</td>
+<td>10.5%</td>
+<td>65</td>
+<td>136</td>
+<td>72.2</td>
+</tr>
+<tr>
+<td>Padukka</td>
+<td>482</td>
+<td>17.0</td>
+<td>81.5%</td>
+<td>11.4%</td>
+<td>55</td>
+<td>138</td>
+<td>31.2</td>
+</tr>
+</tbody>
+</table>
+<h2 id="timeline-signal">Timeline signal</h2>
+<figure>
+<img src="assets/public_report/04_activity_cohorts.png"
+alt="Activity cohorts" />
+<figcaption aria-hidden="true">Activity cohorts</figcaption>
+</figure>
+<p>The 2021–2022 band is large across all areas. Treat it as a combined
+real activity + Google photo coverage signal. The comparison remains
+useful because the same extraction method is applied to each area.</p>
+<h2 id="godagama-distance-band-structure">Godagama distance-band
+structure</h2>
+<figure>
+<img src="assets/public_report/05_godagama_rings.png"
+alt="Godagama rings" />
+<figcaption aria-hidden="true">Godagama rings</figcaption>
+</figure>
+<p>The 1 km core carries most of the visible density. The planning
+implication is that Godagama should be treated as a town-centre
+management problem in the core and a growth-guidance problem in the 1–5
+km rings.</p>
+<h2 id="category-structure">Category structure</h2>
+<figure>
+<img src="assets/public_report/07_category_groups.png"
+alt="Category groups" />
+<figcaption aria-hidden="true">Category groups</figcaption>
+</figure>
+<p>Godagama is not only a food or commuting suburb. The extracted mix
+shows daily essentials, clinics, hardware, vehicle service, electronics,
+courier, apartments, and land development. That supports a
+local-enterprise framing rather than a single-sector framing.</p>
+<h2 id="chain-finance-and-developer-anchors">Chain, finance, and
+developer anchors</h2>
+<figure>
+<img src="assets/public_report/08_chain_anchors.png"
+alt="Chain anchors" />
+<figcaption aria-hidden="true">Chain anchors</figcaption>
+</figure>
+<table>
+<thead>
+<tr>
+<th>Anchor</th>
+<th>Matched POIs in Godagama 5 km</th>
+<th>Earliest visible date</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Cargills</td>
+<td>12</td>
+<td>2018-02-27</td>
+</tr>
+<tr>
+<td>Sathosa</td>
+<td>6</td>
+<td>2017-11-06</td>
+</tr>
+<tr>
+<td>BOC</td>
+<td>5</td>
+<td>2015-11-06</td>
+</tr>
+<tr>
+<td>P&amp;S / Perera and Sons</td>
+<td>4</td>
+<td>2020-02-22</td>
+</tr>
+<tr>
+<td>Commercial Bank</td>
+<td>3</td>
+<td>2019-06-22</td>
+</tr>
+<tr>
+<td>Home Lands</td>
+<td>3</td>
+<td>2021-04-08</td>
+</tr>
+<tr>
+<td>LOLC</td>
+<td>3</td>
+<td>2017-05-20</td>
+</tr>
+<tr>
+<td>HNB</td>
+<td>2</td>
+<td>2018-12-15</td>
+</tr>
+<tr>
+<td>Keells</td>
+<td>2</td>
+<td>2019-11-16</td>
+</tr>
+<tr>
+<td>People’s Bank</td>
+<td>2</td>
+<td>2016-03-31</td>
+</tr>
+<tr>
+<td>Prime Lands</td>
+<td>2</td>
+<td>2019-08-11</td>
+</tr>
+<tr>
+<td>Sampath Bank</td>
+<td>2</td>
+<td>2017-08-15</td>
+</tr>
+<tr>
+<td>Pizza Hut</td>
+<td>1</td>
+<td>2025-04-12</td>
+</tr>
+</tbody>
+</table>
+<h2 id="physical-growth-baseline-from-osm">Physical growth baseline from
+OSM</h2>
+<figure>
+<img src="assets/public_report/06_osm_index_growth.png"
+alt="OSM growth index" />
+<figcaption aria-hidden="true">OSM growth index</figcaption>
+</figure>
+<p>OSM history is not a building-permit record, but the magnitude and
+direction are useful: building mapping and road/subdivision mapping
+increased strongly from 2018 to 2026.</p>
+<h2 id="planning-facts-to-carry-into-meetings">Planning facts to carry
+into meetings</h2>
+<table>
+<colgroup>
+<col style="width: 33%" />
+<col style="width: 33%" />
+<col style="width: 33%" />
+</colgroup>
+<thead>
+<tr>
+<th>Fact</th>
+<th>Evidence</th>
+<th>Use</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Godagama has official commercial intensification status</td>
+<td>UDA plan identifies Godagama as High-Density Commercial Zone
+III</td>
+<td>Treat growth as planned intensification, not accidental sprawl</td>
+</tr>
+<tr>
+<td>Kahathuduwa has stronger interchange-led status</td>
+<td>UDA plan identifies Kahathuduwa as High-Density Commercial Zone II
+and guide-plan area</td>
+<td>Use Kahathuduwa as the comparator for what Godagama may become
+next</td>
+</tr>
+<tr>
+<td>Environmental constraints are formal planning layers</td>
+<td>Wetland Nature Conservation Zone and Paddy/Wetland Agricultural Zone
+in the UDA plan</td>
+<td>Use protect / guide / intensify zones instead of blanket
+approval</td>
+</tr>
+<tr>
+<td>Developer market signals track highway access</td>
+<td>Prime Lands and Home Lands project pages market access to Kottawa,
+Makumbura, Athurugiriya, Kahathuduwa, Mirigama</td>
+<td>Use developer POIs and land-price/project data as early-warning
+indicators</td>
+</tr>
+</tbody>
+</table>
+<h2 id="data-driven-planning-suggestions">Data-driven planning
+suggestions</h2>
+<ol type="1">
+<li><strong>Core 0–1 km:</strong> manage as a town centre. Priorities:
+crossings, drainage, frontage rules, parking/loading, shade, small-shop
+continuity.</li>
+<li><strong>Ring 1–3 km:</strong> reserve room for local productive
+services: hardware, repair, vehicle service, electronics, courier,
+clinics, food, bakeries, plant/garden businesses.</li>
+<li><strong>Ring 3–5 km:</strong> require drainage, paddy/wetland
+screening, road-connectivity review, and developer contribution before
+large approvals.</li>
+<li><strong>Quarterly monitoring:</strong> rerun the POI extraction and
+compare Godagama’s score against Kahathuduwa and Kottawa/Makumbura.</li>
+<li><strong>Next data pass:</strong> decode review count/first review
+date, collect official opening dates for the top 200 anchors, and add
+land-price-per-perch data for land-development POIs.</li>
+</ol>
+<h2 id="files">Files</h2>
+<ul>
+<li>Source POI CSV:
+<code>urbanization/data/google_maps_godagama_pois.csv</code></li>
+<li>OSM baseline:
+<code>urbanization/data/godagama-osm-ohsome-baseline-2026-06-26.csv</code></li>
+<li>Build script:
+<code>urbanization/scripts/build_public_visual_report.py</code></li>
+<li>This report:
+<code>urbanization/reports/godagama-urbanization-public-report-2026-06-27.pdf</code></li>
+</ul>
+</body>
+</html>
