@@ -13,7 +13,9 @@ Goal: build a shareable, evidence-backed report and model for Godagama 10200 urb
 - Model/stat outputs: `urbanization/data/godagama_urbanization_model_stats_2026-06-27.json`, `urbanization/data/godagama_urbanization_region_stats_2026-06-27.csv`
 - Report build script: `urbanization/scripts/build_urbanization_report.py`
 - Public visual report with corrected charts: `urbanization/reports/godagama-urbanization-public-report-2026-06-27.md`, `.html`, `.pdf`
-- Comprehensive Urbanization Research case-study report: `urbanization/reports/urbanization-research-godagama-case-study-2026-06-27.md`, `.html`, `.pdf`
+- Comprehensive Urbanization Research case-study report with repo QR: `urbanization/reports/urbanization-research-godagama-case-study-2026-06-27.md`, `.html`, `.pdf`
+- Public GitHub repo: <https://github.com/minzique/urbanization-research>
+- Public repo local checkout/package: this repository checkout
 - Public report assets: `urbanization/reports/assets/public_report/`
 - Public visual report build script: `urbanization/scripts/build_public_visual_report.py`
 - Public report stats: `urbanization/data/godagama_public_report_stats_2026-06-27.json`
