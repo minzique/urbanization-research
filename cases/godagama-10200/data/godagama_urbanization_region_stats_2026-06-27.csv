@@ -1,0 +1,9 @@
+region,total_pois,dated_pois,poi_density_per_km2,post_2020_share_pct,property_count,property_share_pct,property_density_per_km2,productive_count,productive_share_pct,chain_anchor_count,chain_anchor_density_per_km2,urbanization_pressure_score
+Godagama core 1 km,274,272,87.22,82.4,40,14.6,12.73,71,25.9,9,2.86,0
+Godagama 3 km,440,437,15.56,82.4,63,14.3,2.23,111,25.2,15,0.53,34.5
+Godagama 5 km,550,544,7.0,78.7,80,14.5,1.02,118,21.5,47,0.6,0
+Homagama 3 km,470,462,16.62,75.1,66,14.0,2.33,137,29.1,28,0.99,21.0
+Meegoda 3 km,543,519,19.2,79.8,61,11.2,2.16,118,21.7,107,3.78,58.0
+Kottawa/Makumbura 3 km,535,523,18.92,77.8,76,14.2,2.69,135,25.2,21,0.74,53.6
+Kahathuduwa 3 km,622,597,22.0,78.7,65,10.5,2.3,136,21.9,94,3.32,72.2
+Padukka 3 km,482,455,17.05,81.5,55,11.4,1.95,138,28.6,21,0.74,31.2

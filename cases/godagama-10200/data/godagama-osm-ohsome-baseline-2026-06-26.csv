@@ -1,0 +1,8 @@
+metric,2014-01-01,2016-01-01,2018-01-01,2020-01-01,2022-01-01,2024-01-01,2026-01-01,source,notes
+buildings_count,8,51,922,1562,1650,3659,4036,ohsome API / OpenStreetMap history,"bbox 80.00,6.82,80.065,6.88; filter building=*; mapped feature count, not guaranteed real construction count"
+shops_count,5,11,30,35,36,42,45,ohsome API / OpenStreetMap history,"filter shop=*"
+food_drink_count,2,3,9,10,11,17,17,ohsome API / OpenStreetMap history,"amenity in restaurant,cafe,fast_food,bar,pub,food_court"
+education_health_count,7,12,21,22,25,25,26,ohsome API / OpenStreetMap history,"amenity in school,university,college,hospital,clinic,pharmacy,doctors"
+commercial_amenities_count,18,19,29,30,36,36,38,ohsome API / OpenStreetMap history,"amenity in bank,atm,fuel,marketplace,parking,post_office"
+road_length_m,116725.27,158940.82,280717.89,338645.59,353494.02,359302.83,374546.75,ohsome API / OpenStreetMap history,"filter highway=* and geometry:line"
+residential_service_road_length_m,72818.31,124488.45,231246.09,280475.91,294984.57,299606.80,314732.89,ohsome API / OpenStreetMap history,"filter highway in residential,service,unclassified,living_street and geometry:line"

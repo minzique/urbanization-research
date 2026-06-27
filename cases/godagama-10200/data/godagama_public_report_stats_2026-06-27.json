@@ -1,0 +1,294 @@
+{
+  "raw_rows": 3495,
+  "analysis_rows": 3494,
+  "regions": {
+    "Godagama": {
+      "total": 440,
+      "dated": 437,
+      "poi_density": 15.56181665787421,
+      "recent_share": 0.8237986270022883,
+      "post_2022_share": 0.35469107551487417,
+      "property_count": 63,
+      "property_share": 0.1431818181818182,
+      "property_density": 2.228169203286535,
+      "productive_count": 111,
+      "productive_share": 0.25227272727272726,
+      "chain_count": 15,
+      "chain_density": 0.5305164769729844,
+      "groups": {
+        "Property / developer": 63,
+        "Daily essentials": 165,
+        "Local productive services": 111,
+        "Food / social": 63
+      },
+      "cohorts": {
+        "\u22642018": 31,
+        "2019\u201320": 46,
+        "2021\u201322": 205,
+        "2023\u201324": 74,
+        "2025\u201326": 81
+      },
+      "top_categories": {
+        "electronics": 31,
+        "clinic": 29,
+        "hardware": 28,
+        "vehicle_service": 28,
+        "apartment": 27,
+        "supermarket": 26,
+        "land_development": 25,
+        "religious_place": 22,
+        "hotel_guesthouse": 21,
+        "bakery": 20,
+        "school": 20,
+        "restaurant": 19
+      },
+      "score": 34.52380952380953,
+      "score_norms": {
+        "poi_density": 0.0,
+        "recent_share": 1.0,
+        "property_density": 0.3809523809523813,
+        "chain_density": 0.0
+      }
+    },
+    "Homagama": {
+      "total": 470,
+      "dated": 462,
+      "poi_density": 16.62284961182018,
+      "recent_share": 0.7510822510822511,
+      "post_2022_share": 0.3484848484848485,
+      "property_count": 66,
+      "property_share": 0.14042553191489363,
+      "property_density": 2.334272498681132,
+      "productive_count": 137,
+      "productive_share": 0.29148936170212764,
+      "chain_count": 28,
+      "chain_density": 0.9902974236829043,
+      "groups": {
+        "Property / developer": 66,
+        "Daily essentials": 170,
+        "Local productive services": 137,
+        "Food / social": 62
+      },
+      "cohorts": {
+        "\u22642018": 70,
+        "2019\u201320": 45,
+        "2021\u201322": 186,
+        "2023\u201324": 77,
+        "2025\u201326": 84
+      },
+      "top_categories": {
+        "electronics": 47,
+        "vehicle_service": 30,
+        "courier": 29,
+        "government_office": 27,
+        "land_development": 25,
+        "clinic": 24,
+        "religious_place": 22,
+        "hardware": 21,
+        "apartment": 21,
+        "bakery": 20,
+        "real_estate_office": 20,
+        "supermarket": 17
+      },
+      "score": 20.98403408186017,
+      "score_norms": {
+        "poi_density": 0.16483516483516475,
+        "recent_share": 0.0,
+        "property_density": 0.5238095238095241,
+        "chain_density": 0.14130434782608695
+      }
+    },
+    "Meegoda": {
+      "total": 542,
+      "dated": 518,
+      "poi_density": 19.169328701290507,
+      "recent_share": 0.7972972972972973,
+      "post_2022_share": 0.3108108108108108,
+      "property_count": 61,
+      "property_share": 0.11254612546125461,
+      "property_density": 2.15743367302347,
+      "productive_count": 117,
+      "productive_share": 0.2158671586715867,
+      "chain_count": 107,
+      "chain_density": 3.784350869073956,
+      "groups": {
+        "Property / developer": 61,
+        "Daily essentials": 253,
+        "Local productive services": 117,
+        "Food / social": 81
+      },
+      "cohorts": {
+        "\u22642018": 59,
+        "2019\u201320": 46,
+        "2021\u201322": 252,
+        "2023\u201324": 72,
+        "2025\u201326": 89
+      },
+      "top_categories": {
+        "bank": 67,
+        "supermarket": 41,
+        "electronics": 34,
+        "land_development": 34,
+        "religious_place": 34,
+        "bakery": 31,
+        "courier": 29,
+        "vehicle_service": 27,
+        "fast_food": 26,
+        "clinic": 26,
+        "apartment": 21,
+        "government_office": 19
+      },
+      "score": 57.64704453145293,
+      "score_norms": {
+        "poi_density": 0.5604395604395607,
+        "recent_share": 0.6355521109284468,
+        "property_density": 0.28571428571428553,
+        "chain_density": 1.0
+      }
+    },
+    "Kottawa/Makumbura": {
+      "total": 535,
+      "dated": 523,
+      "poi_density": 18.92175434536978,
+      "recent_share": 0.7782026768642447,
+      "post_2022_share": 0.3365200764818356,
+      "property_count": 76,
+      "property_share": 0.14205607476635515,
+      "property_density": 2.6879501499964547,
+      "productive_count": 135,
+      "productive_share": 0.2523364485981308,
+      "chain_count": 21,
+      "chain_density": 0.7427230677621782,
+      "groups": {
+        "Property / developer": 76,
+        "Daily essentials": 214,
+        "Local productive services": 135,
+        "Food / social": 61
+      },
+      "cohorts": {
+        "\u22642018": 56,
+        "2019\u201320": 60,
+        "2021\u201322": 231,
+        "2023\u201324": 72,
+        "2025\u201326": 104
+      },
+      "top_categories": {
+        "electronics": 53,
+        "vehicle_service": 33,
+        "religious_place": 30,
+        "land_development": 29,
+        "clinic": 28,
+        "fuel_station": 28,
+        "hardware": 25,
+        "pharmacy": 24,
+        "apartment": 24,
+        "tuition": 23,
+        "real_estate_office": 23,
+        "supermarket": 20
+      },
+      "score": 53.571535033029726,
+      "score_norms": {
+        "poi_density": 0.5219780219780222,
+        "recent_share": 0.37296173576934916,
+        "property_density": 1.0,
+        "chain_density": 0.06521739130434782
+      }
+    },
+    "Kahathuduwa": {
+      "total": 622,
+      "dated": 597,
+      "poi_density": 21.99874991181309,
+      "recent_share": 0.7872696817420436,
+      "post_2022_share": 0.32998324958123953,
+      "property_count": 65,
+      "property_share": 0.1045016077170418,
+      "property_density": 2.2989047335495996,
+      "productive_count": 136,
+      "productive_share": 0.21864951768488747,
+      "chain_count": 94,
+      "chain_density": 3.324569922364036,
+      "groups": {
+        "Property / developer": 65,
+        "Daily essentials": 267,
+        "Local productive services": 136,
+        "Food / social": 86
+      },
+      "cohorts": {
+        "\u22642018": 74,
+        "2019\u201320": 53,
+        "2021\u201322": 273,
+        "2023\u201324": 89,
+        "2025\u201326": 108
+      },
+      "top_categories": {
+        "supermarket": 56,
+        "bank": 49,
+        "religious_place": 47,
+        "electronics": 43,
+        "clinic": 34,
+        "vehicle_service": 34,
+        "bakery": 28,
+        "apartment": 27,
+        "government_office": 27,
+        "fuel_station": 25,
+        "tuition": 25,
+        "hardware": 25
+      },
+      "score": 72.22649006934074,
+      "score_norms": {
+        "poi_density": 1.0,
+        "recent_share": 0.49765173527880546,
+        "property_density": 0.4761904761904765,
+        "chain_density": 0.8586956521739131
+      }
+    },
+    "Padukka": {
+      "total": 482,
+      "dated": 455,
+      "poi_density": 17.047262793398566,
+      "recent_share": 0.8153846153846154,
+      "post_2022_share": 0.36043956043956044,
+      "property_count": 55,
+      "property_share": 0.11410788381742738,
+      "property_density": 1.9452270822342763,
+      "productive_count": 138,
+      "productive_share": 0.2863070539419087,
+      "chain_count": 21,
+      "chain_density": 0.7427230677621782,
+      "groups": {
+        "Property / developer": 55,
+        "Daily essentials": 188,
+        "Local productive services": 138,
+        "Food / social": 65
+      },
+      "cohorts": {
+        "\u22642018": 41,
+        "2019\u201320": 43,
+        "2021\u201322": 207,
+        "2023\u201324": 77,
+        "2025\u201326": 87
+      },
+      "top_categories": {
+        "electronics": 49,
+        "vehicle_service": 30,
+        "clinic": 28,
+        "hardware": 26,
+        "supermarket": 25,
+        "apartment": 24,
+        "government_office": 24,
+        "religious_place": 24,
+        "bank": 22,
+        "courier": 21,
+        "pharmacy": 20,
+        "land_development": 20
+      },
+      "score": 31.162434029012527,
+      "score_norms": {
+        "poi_density": 0.23076923076923064,
+        "recent_share": 0.8842900033009695,
+        "property_density": 0.0,
+        "chain_density": 0.06521739130434782
+      }
+    }
+  }
+}
