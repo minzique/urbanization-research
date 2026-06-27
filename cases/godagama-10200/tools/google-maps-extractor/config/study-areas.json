@@ -1,0 +1,13 @@
+{
+  "center": { "name": "Godagama Junction", "lat": 6.850694, "lng": 80.0324106 },
+  "areas": [
+    { "id": "godagama_core_1km", "label": "Godagama core 1 km", "lat": 6.850694, "lng": 80.0324106, "radius_m": 1000 },
+    { "id": "godagama_catchment_3km", "label": "Godagama catchment 3 km", "lat": 6.850694, "lng": 80.0324106, "radius_m": 3000 },
+    { "id": "godagama_pressure_5km", "label": "Godagama pressure zone 5 km", "lat": 6.850694, "lng": 80.0324106, "radius_m": 5000 },
+    { "id": "homagama_comparator", "label": "Homagama comparator", "lat": 6.844, "lng": 80.0024, "radius_m": 3000 },
+    { "id": "meegoda_comparator", "label": "Meegoda comparator", "lat": 6.8459, "lng": 80.0508, "radius_m": 3000 },
+    { "id": "kottawa_makumbura_comparator", "label": "Kottawa/Makumbura comparator", "lat": 6.8408, "lng": 79.9658, "radius_m": 3000 },
+    { "id": "kahathuduwa_comparator", "label": "Kahathuduwa comparator", "lat": 6.7835, "lng": 79.9972, "radius_m": 3000 },
+    { "id": "padukka_comparator", "label": "Padukka comparator", "lat": 6.8377, "lng": 80.0905, "radius_m": 3000 }
+  ]
+}

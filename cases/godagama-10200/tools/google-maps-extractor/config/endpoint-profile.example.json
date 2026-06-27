@@ -1,0 +1,37 @@
+{
+  "name": "fill-after-reverse-engineering",
+  "baseUrl": "https://maps.google.com",
+  "method": "GET",
+  "urlTemplate": "https://maps.google.com/REPLACE_WITH_PRIVATE_ENDPOINT?q={query}&lat={lat}&lng={lng}&radius={radius_m}&page_token={page_token}",
+  "headers": {
+    "accept": "application/json,text/plain,*/*"
+  },
+  "bodyTemplate": "",
+  "responseMode": "json",
+  "itemsPath": "results[]",
+  "nextPageTokenPath": "next_page_token",
+  "maxPagesPerSearch": 5,
+  "delayMs": 400,
+  "fieldMap": {
+    "place_id": "id",
+    "name": "name",
+    "brand": "brand",
+    "subcategory": "type",
+    "lat": "geometry.location.lat",
+    "lng": "geometry.location.lng",
+    "address": "formatted_address",
+    "google_maps_url": "url",
+    "website": "website",
+    "phone": "formatted_phone_number",
+    "business_status": "business_status",
+    "rating": "rating",
+    "review_count": "user_ratings_total",
+    "price_level": "price_level",
+    "current_opening_hours": "opening_hours.weekday_text[]",
+    "first_review_date": "first_review_date",
+    "first_photo_date": "first_photo_date",
+    "earliest_visible_activity_date": "earliest_visible_activity_date",
+    "latest_visible_activity_date": "latest_visible_activity_date",
+    "opening_date_if_available": "opening_date"
+  }
+}

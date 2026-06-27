@@ -1,0 +1,30 @@
+{
+  "categories": [
+    { "id": "supermarket", "queries": ["supermarket", "Keells", "Cargills Food City", "Sathosa", "LAUGFS Super"] },
+    { "id": "grocery", "queries": ["grocery", "food store"] },
+    { "id": "bakery", "queries": ["bakery", "Perera and Sons", "P&S", "Caravan Fresh"] },
+    { "id": "restaurant", "queries": ["restaurant"] },
+    { "id": "cafe", "queries": ["cafe", "coffee"] },
+    { "id": "fast_food", "queries": ["fast food", "Pizza Hut", "KFC", "Burger King"] },
+    { "id": "pharmacy", "queries": ["pharmacy", "Osusala"] },
+    { "id": "clinic", "queries": ["clinic", "medical centre", "doctor"] },
+    { "id": "hospital", "queries": ["hospital"] },
+    { "id": "bank", "queries": ["bank", "BOC", "People's Bank", "Commercial Bank", "HNB", "Sampath Bank", "DFCC", "LOLC"] },
+    { "id": "atm", "queries": ["ATM"] },
+    { "id": "fuel_station", "queries": ["fuel station", "petrol station", "IOC", "Ceypetco", "Sinopec"] },
+    { "id": "school", "queries": ["school"] },
+    { "id": "university", "queries": ["university", "NSBM", "SLIIT"] },
+    { "id": "tuition", "queries": ["tuition class", "institute"] },
+    { "id": "hardware", "queries": ["hardware", "building materials"] },
+    { "id": "vehicle_service", "queries": ["vehicle service", "car service", "garage", "auto service"] },
+    { "id": "tyre_shop", "queries": ["tyre shop", "tire shop"] },
+    { "id": "electronics", "queries": ["electronics", "phone shop", "computer shop"] },
+    { "id": "courier", "queries": ["courier", "delivery", "Domex", "Prompt Xpress", "Certis"] },
+    { "id": "apartment", "queries": ["apartment", "condominium"] },
+    { "id": "land_development", "queries": ["land sale", "land development", "Prime Lands", "Home Lands", "Groundworth"] },
+    { "id": "real_estate_office", "queries": ["real estate office", "property developer"] },
+    { "id": "hotel_guesthouse", "queries": ["hotel", "guest house", "guesthouse"] },
+    { "id": "government_office", "queries": ["government office", "divisional secretariat", "post office"] },
+    { "id": "religious_place", "queries": ["temple", "church", "mosque", "religious place"] }
+  ]
+}

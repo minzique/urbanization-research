@@ -1,0 +1,4 @@
+data/captures/*
+!data/captures/.gitkeep
+config/endpoint-profile.local.json
+*.local.json
