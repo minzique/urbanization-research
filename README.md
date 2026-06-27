@@ -5,8 +5,10 @@ Open research notes, data summaries, and printable case-study reports on peri-ur
 ## Case studies
 
 - [Case Study 01 — Godagama 10200, Western Province, Sri Lanka](cases/godagama-10200/)
-  - [Printable PDF report](cases/godagama-10200/report/urbanization-research-godagama-case-study-2026-06-27.pdf)
-  - [Source markdown](cases/godagama-10200/report/urbanization-research-godagama-case-study-2026-06-27.md)
+  - [Printable PDF report — English](cases/godagama-10200/report/urbanization-research-godagama-case-study-2026-06-27.pdf)
+  - [Sinhala translation PDF](cases/godagama-10200/report/urbanization-research-godagama-case-study-2026-06-27-si.pdf)
+  - [Source markdown — English](cases/godagama-10200/report/urbanization-research-godagama-case-study-2026-06-27.md)
+  - [Source markdown — Sinhala](cases/godagama-10200/report/urbanization-research-godagama-case-study-2026-06-27-si.md)
 
 ## Evidence layers used
 

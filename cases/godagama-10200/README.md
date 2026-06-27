@@ -4,8 +4,10 @@ Godagama is the first town/city case study in **Urbanization Research**.
 
 ## Main outputs
 
-- [Printable PDF](report/urbanization-research-godagama-case-study-2026-06-27.pdf)
-- [Source markdown](report/urbanization-research-godagama-case-study-2026-06-27.md)
+- [Printable PDF — English](report/urbanization-research-godagama-case-study-2026-06-27.pdf)
+- [Sinhala translation PDF](report/urbanization-research-godagama-case-study-2026-06-27-si.pdf)
+- [Source markdown — English](report/urbanization-research-godagama-case-study-2026-06-27.md)
+- [Source markdown — Sinhala](report/urbanization-research-godagama-case-study-2026-06-27-si.md)
 - [Report charts](report/assets/public_report/)
 - [Cleaned public POI CSV](data/google_maps_godagama_pois_public.csv)
 - [Cleaned public POI GeoJSON](data/google_maps_godagama_pois_public.geojson)
